@@ -1,0 +1,566 @@
+<html lang="ja"><head>
+    <meta charset="UTF-8">
+<title>Yahoo! JAPAN公式アプリケーション</title>
+<meta name="keywords" content="Yahoo! JAPAN,yahoo,ヤフー,公式アプリ,無料アプリ,天気,路線,ニュース,検索,フォロー,スポーツ,災害,防災,きせかえ">
+<meta name="description" content="Yahoo! JAPANアプリはあなたの毎日がより豊かになるようサポートします。ニュース、検索、天気など、スマートフォン＆タブレット向けのポータルアプリ。">
+<meta property="og:title" content="Yahoo! JAPAN公式アプリケーション">
+<meta property="og:description" content="Yahoo! JAPANアプリはあなたの毎日がより豊かになるようサポートします。ニュース、検索、天気など、スマートフォン＆タブレット向けのポータルアプリ。">
+<meta property="og:image" content="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_9/image/OGP.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://promo-mobile.yahoo.co.jp/yjapp/">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="Yahoo! JAPAN公式アプリケーション">
+<!--facebook-->
+<meta property="fb:app_id" content="532197183478445">
+<!--Twitter-->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_9/image/OGP.png">
+<meta name="twitter:site" content="@Yahoo_JAPAN_PR">
+<meta name="twitter:title" content="Yahoo! JAPAN 公式アプリケーション">
+<meta name="twitter:description" content="Yahoo! JAPANアプリはあなたの毎日がより豊かになるようサポートします。ニュース、検索、天気など、スマートフォン＆タブレット向けのポータルアプリ。"><link rel="stylesheet" href="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_12/css/style.css" media="all">
+    <script src="https://s.yimg.jp/images/ds/yas/tmual-4.0.0.min.js" async=""></script><script>
+    var TLDataContext = {
+      ual : {
+        pageview : {
+          opttype : 'pc',
+          content_id : '',
+          id_type : '',
+          nopv : 'false',
+          mtestid : '',
+          ss_join_id : '',
+          ss_join_id_type : ''
+        }
+      }
+    };
+    </script>
+    <script async="" src="https://s.yimg.jp/images/ds/managed/1/managed-ual.min.js?tk=4465a92c-f0fd-406f-b519-efd409cc9849&amp;service=toppage"></script>
+    <script src="https://s.yimg.jp/images/ds/cl/ds-custom-logger-2.0.0.min.js"></script>
+  </head>
+  <body>
+  <h1 class="Util-displayHiddenVisually">Yahoo! JAPAN アプリ</h1>
+  <div class="Wrapper">
+      <div id="emg">
+  <script defer="" src="https://s.yimg.jp/images/templa/mhdemg/v2/templa.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        if (typeof YAHOO !== 'undefined' && typeof YAHOO.JP !== 'undefined' && typeof YAHOO.JP.templa.EMG !== 'undefined' && typeof YAHOO.JP.templa.EMG.load !== 'undefined') {
+            YAHOO.JP.templa.EMG.load({"device_id":"pc"});
+        }
+    }, false);
+</script>
+<div id="TEMPLA_EMG"></div>
+<div id="TEMPLA_EMG3_VDOM"><div id="TEMPLA_EMG3"><!-- EMG3 noResult --></div>
+<script>
+    YAHOO = window.YAHOO || {};
+    YAHOO.JP = YAHOO.JP || {};
+    YAHOO.JP.templa = YAHOO.JP.templa || {};
+    YAHOO.JP.templa.EMG = YAHOO.JP.templa.EMG || {};
+    YAHOO.JP.templa.EMG.refresh = function() {
+        var EMG1_LISTS = ["EMG", "MEM", "SEMG"];
+        var EMG2_LISTS = ["EMG2", "MEM2", "SEMG2"];
+        var EMG3_LISTS = ["EMG3", "MEM3", "SEMG3"];
+        var elmEmg1 = document.getElementById("TEMPLA_EMG1");
+        var elmEmg2 = document.getElementById("TEMPLA_EMG2");
+        var elmEmg3 = document.getElementById("TEMPLA_EMG3");
+        var emgXhr = new XMLHttpRequest();
+        emgXhr.open("GET", 'https://templa.yahooapis.jp/v1/templates/emg?device_id=pc&semg=false');
+        emgXhr.responseType = 'json';
+        emgXhr.timeout = 5000;
+        emgXhr.onload = function() {
+            if (emgXhr.status === 200) {
+                var emgJson = emgXhr.response;
+                // IE11の場合はレスポンスが文字列になるためJSONパースを行う
+                if (JSON && typeof emgJson === "string") {
+                    try {
+                        emgJson = JSON.parse(emgJson);
+                    } catch (e) {
+                        return;
+                    }
+                }
+                emgJson.results.forEach(function(obj) {
+                    if (EMG1_LISTS.indexOf(obj.position) > -1 && elmEmg1 !== null) { elmEmg1.innerHTML = obj.html;}
+                    if (EMG2_LISTS.indexOf(obj.position) > -1 && elmEmg2 !== null) { elmEmg2.innerHTML = obj.html;}
+                    if (EMG3_LISTS.indexOf(obj.position) > -1 && elmEmg3 !== null) { elmEmg3.innerHTML = obj.html;}
+                });
+            }
+        };
+        emgXhr.send();
+    }
+    window.addEventListener('DOMContentLoaded', function () {
+        YAHOO.JP.templa.EMG.refresh();
+    }, false);
+</script>
+</div><div id="TEMPLA_EMG2_VDOM"><div id="TEMPLA_EMG2"><!-- EMG2 noResult --></div>
+<script>
+    YAHOO = window.YAHOO || {};
+    YAHOO.JP = YAHOO.JP || {};
+    YAHOO.JP.templa = YAHOO.JP.templa || {};
+    YAHOO.JP.templa.EMG = YAHOO.JP.templa.EMG || {};
+    YAHOO.JP.templa.EMG.refresh = function() {
+        var EMG1_LISTS = ["EMG", "MEM", "SEMG"];
+        var EMG2_LISTS = ["EMG2", "MEM2", "SEMG2"];
+        var EMG3_LISTS = ["EMG3", "MEM3", "SEMG3"];
+        var elmEmg1 = document.getElementById("TEMPLA_EMG1");
+        var elmEmg2 = document.getElementById("TEMPLA_EMG2");
+        var elmEmg3 = document.getElementById("TEMPLA_EMG3");
+        var emgXhr = new XMLHttpRequest();
+        emgXhr.open("GET", 'https://templa.yahooapis.jp/v1/templates/emg?device_id=pc&semg=false');
+        emgXhr.responseType = 'json';
+        emgXhr.timeout = 5000;
+        emgXhr.onload = function() {
+            if (emgXhr.status === 200) {
+                var emgJson = emgXhr.response;
+                // IE11の場合はレスポンスが文字列になるためJSONパースを行う
+                if (JSON && typeof emgJson === "string") {
+                    try {
+                        emgJson = JSON.parse(emgJson);
+                    } catch (e) {
+                        return;
+                    }
+                }
+                emgJson.results.forEach(function(obj) {
+                    if (EMG1_LISTS.indexOf(obj.position) > -1 && elmEmg1 !== null) { elmEmg1.innerHTML = obj.html;}
+                    if (EMG2_LISTS.indexOf(obj.position) > -1 && elmEmg2 !== null) { elmEmg2.innerHTML = obj.html;}
+                    if (EMG3_LISTS.indexOf(obj.position) > -1 && elmEmg3 !== null) { elmEmg3.innerHTML = obj.html;}
+                });
+            }
+        };
+        emgXhr.send();
+    }
+    window.addEventListener('DOMContentLoaded', function () {
+        YAHOO.JP.templa.EMG.refresh();
+    }, false);
+</script>
+</div><div id="TEMPLA_EMG_VDOM"><div id="TEMPLA_EMG1"><!-- EMG noResult --></div>
+<script>
+    YAHOO = window.YAHOO || {};
+    YAHOO.JP = YAHOO.JP || {};
+    YAHOO.JP.templa = YAHOO.JP.templa || {};
+    YAHOO.JP.templa.EMG = YAHOO.JP.templa.EMG || {};
+    YAHOO.JP.templa.EMG.refresh = function() {
+        var EMG1_LISTS = ["EMG", "MEM", "SEMG"];
+        var EMG2_LISTS = ["EMG2", "MEM2", "SEMG2"];
+        var EMG3_LISTS = ["EMG3", "MEM3", "SEMG3"];
+        var elmEmg1 = document.getElementById("TEMPLA_EMG1");
+        var elmEmg2 = document.getElementById("TEMPLA_EMG2");
+        var elmEmg3 = document.getElementById("TEMPLA_EMG3");
+        var emgXhr = new XMLHttpRequest();
+        emgXhr.open("GET", 'https://templa.yahooapis.jp/v1/templates/emg?device_id=pc&semg=false');
+        emgXhr.responseType = 'json';
+        emgXhr.timeout = 5000;
+        emgXhr.onload = function() {
+            if (emgXhr.status === 200) {
+                var emgJson = emgXhr.response;
+                // IE11の場合はレスポンスが文字列になるためJSONパースを行う
+                if (JSON && typeof emgJson === "string") {
+                    try {
+                        emgJson = JSON.parse(emgJson);
+                    } catch (e) {
+                        return;
+                    }
+                }
+                emgJson.results.forEach(function(obj) {
+                    if (EMG1_LISTS.indexOf(obj.position) > -1 && elmEmg1 !== null) { elmEmg1.innerHTML = obj.html;}
+                    if (EMG2_LISTS.indexOf(obj.position) > -1 && elmEmg2 !== null) { elmEmg2.innerHTML = obj.html;}
+                    if (EMG3_LISTS.indexOf(obj.position) > -1 && elmEmg3 !== null) { elmEmg3.innerHTML = obj.html;}
+                });
+            }
+        };
+        emgXhr.send();
+    }
+    window.addEventListener('DOMContentLoaded', function () {
+        YAHOO.JP.templa.EMG.refresh();
+    }, false);
+</script>
+</div></div>
+      <div id="yjapp_promo" class="target_modules">
+        <section class="Introduction">
+  <div class="Introduction__content" data-topapppromointroduction-scaled="" style="transform: scale(1.002837);">
+    <header class="Introduction__header">
+      <div class="Introduction__headerBg Util-positionCenter"></div>
+      <div class="Introduction__decoration"></div>
+      <h2 class="Introduction__title">
+        <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/title.png" width="384" height="91">
+        <div class="Introduction__appIcon Icon Icon--appIcon" aria-hidden="true"></div>
+      </h2>
+    </header>
+    <ol class="Introduction__subText">
+      <li class="Introduction__subText--new">
+        <span class="Introduction__newIcon">
+          <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/new_01.svg" width="28" height="28">
+        </span>みんなの<span class="Introduction__subText--lightTextKey">話題</span>がわかる<span class="Introduction__subText--lightTextPrimary">「トレンド」</span>
+      </li>
+      <li class="Introduction__subText--new">
+        <span class="Introduction__newIcon">
+        <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/new_02.svg" width="28" height="28">
+        </span>あなたの<span class="Introduction__subText--lightTextKey">興味</span>にこたえる<span class="Introduction__subText--lightTextPrimary">「フォロー」</span>
+      </li>
+      <li class="Introduction__subText--new">
+        <span class="Introduction__newIcon">
+        <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/new_03.svg" width="28" height="28">
+        </span>あなたの<span class="Introduction__subText--lightTextKey">毎日</span>に役立つ<span class="Introduction__subText--lightTextPrimary">「アシスト」</span>
+      </li>
+    </ol>
+    <div class="Introduction__image">
+      <div class="Introduction__imageLeft Util-positionCenter">
+        <span class="Introduction__imageBg Icon Icon--mainBg" aria-hidden="true"></span>
+        <span class="Introduction__imagePeople Icon Icon--mainPeople" aria-hidden="true"></span>
+      </div>
+      <div class="Introduction__imageRight">
+        <img class="Introduction__imageDevice" src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/Devices/Introduction_0708.png" alt="アプリのイメージ" aria-hidden="true">
+        <p class="Introduction__annotation">※iOSとAndroidでリリースタイミングが異なります</p>
+      </div>
+    </div>
+    <footer class="Introduction__footer">
+      <h3 class="Util-displayHiddenVisually">Yahoo! JAPANアプリをダウンロード</h3>
+     <div class="Introduction__footer--content">
+      <ul class="Introduction__appList">
+        <li class="Introduction__appListItem">
+          <section class="Introduction__listButton">
+            <h4 class="Introduction__listButtonTitle">for iPhone/iPad</h4>
+            <a href="https://apps.apple.com/jp/app/yahoo-japan/id299147843" class="Introduction__buttonLink" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:u_appdl_i;_cl_position:0;" data-cl_cl_index="1">
+              <span class="Introduction__button--iOS Icon Icon--buttonIos">App Storeからダウンロード</span>
+            </a>
+          </section>
+          <span class="Introduction__listQr Icon Icon--qrIos">iOS版QRコード</span>
+        </li>
+        <li class="Introduction__appListItem">
+          <section class="Introduction__listButton">
+            <h4 class="Introduction__listButtonTitle">for Android</h4>
+            <a href="https://play.google.com/store/apps/details?id=jp.co.yahoo.android.yjtop&amp;hl=ja" class="Introduction__buttonLink" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:u_appdl_a;_cl_position:0;" data-cl_cl_index="2">
+              <span class="Introduction__button--android Icon Icon--buttonAndroid">Google Playで手に入れよう</span>
+            </a>
+          </section>
+          <span class="Introduction__listQr Icon Icon--qrAndroid">Android版QRコード</span>
+        </li>
+      </ul>
+      <a class="Introduction__blogLink" href="https://topblog.yahoo.co.jp/info/20240624a.html" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:replace;_cl_position:0;" data-cl_cl_index="3">
+        <img class="Introduction__blogLink--icon" src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/infoCircle.svg" width="18" height="18">
+        <span class="Introduction__blogLink--text">リニューアルに伴う<br>一部機能の移行について</span>
+      </a>
+      <ul class="Introduction__snsList">
+        <li class="Introduction__snsListItem IntroductionlistItem--sns">
+          <a href="https://www.facebook.com/share.php?u=https://promo-mobile.yahoo.co.jp/yjapp/index.html" class="Introduction__buttonSnsLink" target="new" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:share_fb;_cl_position:0;" data-cl_cl_index="4">
+            <span class="Introduction__buttonSns Icon Icon--snsFb">Facebookでシェア</span>
+          </a>
+        </li>
+        <li class="Introduction__snsListItem IntroductionlistItem--sns">
+          <a href="https://x.com/share?url=https://promo-mobile.yahoo.co.jp/yjapp/index.html&amp;text=Yahoo! JAPAN公式アプリケーション" class="Introduction__buttonSnsLink" target="new" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:share_x;_cl_position:0;" data-cl_cl_index="5">
+            <span class="Introduction__buttonSns Icon Icon--snsTw">Xでシェア</span>
+          </a>
+        </li>
+      </ul>
+     </div>
+    </footer>
+    <div class="Introduction__campaign">
+      <a href="https://topblog.yahoo.co.jp/info/20240708a.html" class="Introduction__campaign--button" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:camp;_cl_position:0;" data-cl_cl_index="6">
+        リニューアル記念キャンペーン実施中
+        <img class="Introduction__campaign--icon" src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/campaign_arrow.svg" width="35" height="35">
+      </a>
+    </div>
+  </div>
+</section>
+        <section class="Card Card--trend">
+  <div class="Card__content" data-topapppromo-scaled="" style="transform: scale(1.136842);">
+    <header class="Card__header">
+      <h2 class="Card__title">みんなの話題がわかる「トレンド」</h2>
+      <p class="Card__text">
+        Yahoo!検索の急上昇ワードをランキング化。概要や関連ニュースで「なぜ話題か」もわかります。</p>
+      <a href="https://topblog.yahoo.co.jp/info/20240708b.html" class="Card__button" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:trend;_cl_position:0;" data-cl_cl_index="7">
+        トレンドでできること
+        <span class="Card__button__icon"></span>
+      </a>
+    </header>
+    <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/Trend.png" width="918px" height="388px" alt="みんなの話題がわかる「トレンド」" aria-hidden="true">
+  </div>
+</section>
+        <section class="Card Card--follow">
+  <div class="Card__content" data-topapppromo-scaled="" style="transform: scale(1.136842);">
+    <header class="Card__header">
+      <h2 class="Card__title">あなたの興味にこたえる「フォロー」</h2>
+      <p class="Card__text">
+        スポーツや動物、エンタメや経済など、あなたが選んだテーマの最新情報をまとめて確認できます。</p>
+      <a href="https://topblog.yahoo.co.jp/info/20240624b.html" class="Card__button" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:follow;_cl_position:0;" data-cl_cl_index="8">
+        フォローでできること
+        <span class="Card__button__icon"></span>
+      </a>
+    </header>
+    <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/Follow.png" width="918px" height="388px" alt="あなたの興味にこたえる「フォロー」" aria-hidden="true">
+  </div>
+</section>
+ 
+        <section class="Card Card--assist">
+  <div class="Card__content" data-topapppromo-scaled="" style="transform: scale(1.136842);">
+    <header class="Card__header">
+      <h2 class="Card__title">あなたの毎日に役立つ「アシスト」</h2>
+      <p class="Card__text">
+        今日の天気、予定、電車の発車タイマーなど、あなたの1日に役立つ情報を手軽に確認できます。</p>
+      <a href="https://topblog.yahoo.co.jp/info/20240624c.html" class="Card__button" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:assist;_cl_position:0;" data-cl_cl_index="9">
+        アシストでできること
+        <span class="Card__button__icon"></span>
+      </a>
+    </header>
+    <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/Assist.png" width="918px" height="388px" alt="あなたの毎日に役立つ「アシスト」" aria-hidden="true">
+  </div>
+</section>
+ 
+        <section class="Card Card--lifeline">
+  <div class="Card__content" data-topapppromo-scaled="" style="transform: scale(1.136842);">
+    <header class="Card__header">
+      <h2 class="Card__title">天気や路線をサクッと確認</h2>
+      <p class="Card__text">忙しい外出前の必要情報はこれひとつで。スマートなお出かけをサポートします。</p>
+    </header>
+    <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_9/image/Lifeline.png" width="918px" height="388px" alt="天気や路線をサクッと確認" aria-hidden="true">
+  </div>
+</section>
+ 
+        <section class="Card Card--news">
+  <div class="Card__content" data-topapppromo-scaled="" style="transform: scale(1.136842);">
+    <header class="Card__header">
+      <h2 class="Card__title">最新のニュースをチェック</h2>
+      <p class="Card__text">最新情報を素早くお届け。気になるワードはその場で検索、深掘りできます。</p>
+    </header>
+    <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_9/image/News.png" width="918px" height="388px" alt="最新のニュースをチェック" aria-hidden="true">
+  </div>
+</section>
+ 
+        <section class="Card Card--emergency">
+  <div class="Card__content" data-topapppromo-scaled="" style="transform: scale(1.136842);">
+    <header class="Card__header">
+      <h2 class="Card__title">現在地の災害情報を受け取ろう</h2>
+      <p class="Card__text">地震・大雨などの災害・防災情報をPUSHで通知。外出先でもその場の情報を知ることができます。</p>
+    </header>
+    <img src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/Emergency.png" width="918px" height="388px" alt="現在地の災害情報を受け取ろう" aria-hidden="true">
+  </div>
+</section>
+        <section class="Toapp">
+  <div class="Toapp__content" data-topapppromo-scaled="" style="transform: scale(1.136842);">
+    <header class="Toapp__header">
+      <p class="Toapp__appIcon Icon Icon--appIcon"></p>
+      <h2 class="Toapp__title">さっそく使ってみましょう!</h2>
+    </header>
+    <div class="Toapp__image">
+      <div class="Toapp__imageLeft">
+        <img class="Toapp__imageDevice" src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/image/Devices/ToApp.png" alt="アプリのイメージ" aria-hidden="true">
+      </div>
+      <div class="Toapp__imageRight">
+        <span class="Toapp__imagePeople Icon Icon--toappPeople" aria-hidden="true">ユーザイラスト</span>
+      </div>
+    </div>
+    <footer class="Toapp__footer">
+      <h3 class="Util-displayHiddenVisually">Yahoo! JAPANアプリをダウンロード</h3>
+      <ul class="Toapp__list">
+        <li class="Toapp__listItem">
+          <section class="Toapp__listButton">
+            <h4 class="Toapp__listButtonTitle">for iPhone/iPad</h4>
+            <a href="https://apps.apple.com/jp/app/yahoo-japan/id299147843" class="Toapp__buttonLink" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:l_appdl_i;_cl_position:0;" data-cl_cl_index="10">
+              <span class="Toapp__button Icon Icon--buttonIos">App Storeからダウンロード</span>
+            </a>
+          </section>
+          <span class="Toapp__listQr Icon Icon--qrIos">iOS版QRコード</span>
+        </li>
+        <li class="Toapp__listItem">
+          <section class="Toapp__listButton">
+            <h4 class="Toapp__listButtonTitle">for Android</h4>
+            <a href="https://play.google.com/store/apps/details?id=jp.co.yahoo.android.yjtop&amp;hl=ja" class="Toapp__buttonLink" data-cl-params="_cl_vmodule:yjapp_promo;_cl_link:l_appdl_a;_cl_position:0;" data-cl_cl_index="11">
+              <span class="Toapp__button Icon Icon--buttonAndroid">Google Playで手に入れよう</span>
+            </a>
+          </section>
+          <span class="Toapp__listQr Icon Icon--qrAndroid">Android版QRコード</span>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</section>
+ 
+      </div>
+      <div id="footer" class="target_modules">
+        <footer class="Footer">
+  <p class="Footer__links"><a href="https://www.yahoo.co.jp/" class="Footer__link" data-cl-params="_cl_vmodule:footer;_cl_link:ytop;_cl_position:0;" data-cl_cl_index="1">Yahoo! JAPAN</a>
+    <br><a href="https://www.lycorp.co.jp/ja/company/privacypolicy/" class="Footer__link" data-cl-params="_cl_vmodule:footer;_cl_link:policy;_cl_position:0;" data-cl_cl_index="2">プライバシーポリシー</a> - <a href="https://privacy.lycorp.co.jp/ja/" class="Footer__link" data-cl-params="_cl_vmodule:footer;_cl_link:center;_cl_position:0;" data-cl_cl_index="3">プライバシーセンター</a> - <a href="https://www.lycorp.co.jp/ja/company/terms/" class="Footer__link" data-cl-params="_cl_vmodule:footer;_cl_link:ag;_cl_position:0;" data-cl_cl_index="4">利用規約</a></p>
+ 
+  <ul class="Footer__annotation">
+    <li class="Footer__annotationItem">動作環境 Android 8.0以上、iOS 16以上、iPad OS 16以上 ※一部の機種では正常に動作しない場合があります。</li>
+    <li class="Footer__annotationItem">「App Store」ボタンを押すとiTunes （外部サイト）が起動します。</li>
+    <li class="Footer__annotationItem">アプリケーションはiPhone、iPod touch、iPadまたはAndroidでご利用いただけます。</li>
+    <li class="Footer__annotationItem">Apple、Appleのロゴ、App Store、iPodのロゴ、iTunesは、米国および他国のApple Inc.の登録商標です。</li>
+    <li class="Footer__annotationItem">iPhone、iPod touch、iPadはApple Inc.の商標です。</li>
+    <li class="Footer__annotationItem">iPhone商標は、アイホン株式会社のライセンスに基づき使用されています。</li>
+    <li class="Footer__annotationItem">Copyright (C) 2024 Apple Inc. All rights reserved.</li>
+    <li class="Footer__annotationItem">Android、Androidロゴ、Google Play、Google Playロゴは、Google LLC の商標です。</li>
+    <li class="Footer__annotationItem">スマートフォンでバーコードを読み取るには、専用のアプリケーションが必要です。→<a href="https://support.yahoo-net.jp/PccYjcommon/s/article/H000006844" target="_blank" data-cl-params="_cl_vmodule:footer;_cl_link:barcode;_cl_position:0;" data-cl_cl_index="5">バーコードの読み取り方</a></li>
+    <li class="Footer__annotationItem">画像:アフロ</li>
+  </ul>
+ 
+  <address class="Footer__address">このページについてのご意見・ご感想を<a href="https://support.yahoo-net.jp/voc/s/ytop-sp" data-cl-params="_cl_vmodule:footer;_cl_link:opinion;_cl_position:0;" data-cl_cl_index="6">こちら</a>までお寄せください。<br>
+© LY Corporation  </address>
+</footer>
+<!--/.Footer-->
+      </div>
+  </div><!--/.Wrapper-->
+  <script src="https://s.yimg.jp/images/yjtop-common/promomobile/yjapp/pc/1_0_10/js/main.js"></script>
+  </body></html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/IMG_9455-modified.png">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/IMG_9455-modified.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="256x256" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/IMG_9455-modified.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/180.png">
+    <link rel="apple-touch-icon" sizes="32x32" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/32.png">
+    <link rel="apple-touch-icon" sizes="16x16" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/16.png">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; 
+        }
+        header {
+            background-color: #87ceeb; 
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background: #ffeb3b; 
+            color: black;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: black;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .topic {
+            background: white;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #87ceeb;
+            color: white;
+            text-align: center;
+            padding: 0.5em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Factorization development and explanation!/h1>
+</header>
+
+<nav>
+    <a href="#factorization">Factorization</a>
+    <a href="#expansion">unfolding</a>
+</nav>
+
+<main>
+    <section id="factorization" class="topic">
+        <h2>Factorization</h2>
+        <p>Factoring is the operation of rewriting polynomials into product form. Below are two examples, one easy and one difficult.</p>
+        <h3>Exemplification 1</h3>
+        <p>Example: x^2 - 4</p>
+        <p> Solution: This can be factored into (x-2)(x+2)using the square difference formula.</p>
+        <h3>Exemplification 2</h3>
+        <p>E: x^2 - 5x + 6</p>
+        <p>S: Solving using factorization yields (x-2)(x-3). Thus, x=2 or x=3.</p>
+        <h3>Question</h3>
+        <h4>① (x-3)(x-1)(x+5)(x+7) - 960</h4>
+        <p>S: First, expand and organize.</p>
+        <p>(x-3)(x-1) = x^2 - 4x + 3</p>
+        <p>(x+5)(x+7) = x^2 + 12x + 35</p>
+        <p>Next, these are multiplied together.</p>
+        <p>(x^2 - 4x + 3)(x^2 + 12x + 35)</p>
+        <p>If you expand this...x^4 + 8x^3 - 13x^2 - 132x + 105 になります。</p>
+        <p>Finally, subtract 960.</p>
+        <p>x^4 + 8x^3 - 13x^2 - 132x + 105 - 960 = x^4 + 8x^3 - 13x^2 - 132x - 855</p>
+        <p>The final factorization is as follows x^4 + 8x^3 - 13x^2 - 132x - 855 です。</p>
+
+        <h4>② a^2 - b^2 - 4c^2 - 6a + 4bc + 9</h4>
+        <p>S: Organize and factorize.</p>
+        <p>First, a^2 - 6a + 9 becomes (a - 3)^2.</p>
+        <p>Then b^2 - 4bc + 4c^2 is (b - 2c)^2.</p>
+        <p>Thus, factoring the whole, we get (a - 3)^2 - (b - 2c)^2. </p>
+        <p>Factor this using the square difference formula.</p>
+        <p>(a - 3 + b - 2c)(a - 3 - b + 2c)</p>
+
+        <h4>③ (x^2 - 15x) + (x^2 - 225)</h4>
+        <p>S: First, find the common factor.</p>
+        <p>x^2 - 15x + x^2 - 225 = 2x^2 - 15x - 225</p>
+        <p>This is further factorized.</p>
+        <p>2(x^2 - 7.5x - 112.5) = 2(x - 15)(x + 7.5)</p>
+
+        <h4>④ x^4(2x - 3y) + 27(9y - 6x)</h4>
+        <p>S:First, find common factors.</p>
+        <p>Factor out 27.</p>
+        <p>x^4(2x - 3y) - 27(6x - 9y) = x^4(2x - 3y) - 27(3(2x - 3y))</p>
+        <p>Factor out the common factor (2x - 3y).</p>
+        <p>(2x - 3y)(x^4 - 27)</p>
+    </section>
+
+    <section id="expansion" class="topic">
+        <h2>Expansion of the formula</h2>
+        <p>Expansion is the operation of rewriting a polynomial product in the form of a sum. Below are two examples of easy and difficult problems.</p>
+        <h3>Example 1/h3>
+        <p>E: (x + 2)(x + 3)</p>
+        <p>S: This can be expanded to x^2 + 5x + 6 using the distributive law.</p>
+        <h3>Example 2</h3>
+        <p>E: (2x - 3)(x + 4)</p>
+        <p>S: This can also be expanded to 2x^2 + 8x - 3x - 12 = 2x^2 + 5x - 12 using the distributive law.</p>
+        <h3>Question</h3>
+        <h4>① Expand (x-3)(x-1)(x+5)(x+7) - 960 and factor again.</h4>
+        <p>S: (x-3)(x-1) = x^2 - 4x + 3</p>
+        <p>(x+5)(x+7) = x^2 + 12x + 35</p>
+        <p>This is multiplied and expanded.</p>
+        <p>(x^2 - 4x + 3)(x^2 + 12x + 35) = x^4 + 8x^3 - 13x^2 - 132x + 105</p>
+        <p>Finally, subtract 960 and re-factorize.</p>
+        <p>x^4 + 8x^3 - 13x^2 - 132x - 855</p>
+
+        <h4>② Expand a^2 - b^2 - 4c^2 - 6a + 4bc + 9 and factor it similarly.</h4>
+        <p>S:  a^2 - 6a + 9 is (a-3)^2.</p>
+        <p>b^2 - 4bc + 4c^2 は (b-2c)^2 です。</p>
+        <p> a^2 - 6a + 9 is (a-3)^2.</p>
+        <p>(a-3)^2 - (b-2c)^2 = (a-3+b-2c)(a-3-b+2c)</p>
+
+        <h4>③ Simplify by expanding (x^2 - 15x) + (x^2 - 225).</h4>
+        <p>S: x^2 - 15x + x^2 - 225 = 2x^2 - 15x - 225</p>
+        <p>Factorize further.</p>
+        <p>2(x^2 - 7.5x - 112.5) = 2(x-15)(x+7.5)</p>
+
+        <h4>④ x^4(2x - 3y) + 27(9y - 6x) to expand and organize.</h4>
+        <p>S: First, find the common factor.</p>
+        <p>x^4(2x - 3y) - 27(6x - 9y)</p>
+        <p>factor out 27.</p>
+        <p>x^4(2x - 3y) - 27(3(2x - 3y))</p>
+        <p>Factor out the common factor (2x - 3y).</p>
+        <p>(2x - 3y)(x^4 - 27)</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Math Attraction - ixl　<font size="2px">If you are happy, it's ok!</font></p>
+</footer>
+    <!-- Cookieの承認 -->
+    <div id="cookie-notice" class="cookie-notice">
+        This site uses cookies.<br>
+        <button id="accept-btn">Allow Cookie</button>
+        <button id="reject-btn">NO DON'T RACKING!!</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
