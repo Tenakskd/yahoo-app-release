@@ -25,7 +25,7 @@ cookieにyuki=Trueを設定すると認証されます。
 <br>
 ## デプロイ
 (slim-2-by-siawaseok.gitがデプロイされます)<br>
-<a href="https://render.com/deploy?repo=https://github.com/Tenakskd/slim-2-by-siawaseok">
+<a href="https://render.com/deploy?repo=https://github.com/Tenakskd/yahoo-app-release">
  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render"><br>
 </a>
 <a href="https://vercel.com/new/clone?repository-url=https://github.com/tenakskd/yahoo-app-release.git">
