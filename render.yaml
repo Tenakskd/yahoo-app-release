@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ixl-usefull-calcu
+    name: promo-yahoo
     env: python
     region: Oregon
     plan: free
